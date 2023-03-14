@@ -11,5 +11,5 @@
 附加数据长度&nbsp;  attachments  不定 附加消息是字符串类型的键值对来表示的，这里首先使用2个字节记录键值对的个数，然后对于每个键和值，都首先使用4个字节记录其长度，然后是具体的数据<br><br>
 消息体长度&nbsp;   length 4    字节记录了消息体的长度消息体body不定消息体，服务之间交互所发送或接收的数据，其长度有前面的length指定<br><br>
 
- 基于【https://my.oschina.net/zhangxufeng/blog/3043768】升级版本
+ 基于【<a href="https://my.oschina.net/zhangxufeng/blog/3043768">Netty 自定义协议</a>】 升级版本
  
